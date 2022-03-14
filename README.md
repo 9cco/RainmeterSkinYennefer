@@ -1,5 +1,8 @@
 # Yennefer: A Rainmeter suite
 
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=9cco.RinmeterSkinYennefer)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/9cco)
+
 *Rainmeter* is a desktop application for *Windows* similar to *conky* on *Linux*. It allows the user to highly cutomize what is shown on the desktop by displaying small widget-like programs called *skins* that one can drag around. Each *skin* can contain a number of elements, but usually have a specific task like showing the current CPU usage. A collection of such *skins* are collected in what is known as a *suit*.
 
 To use this suite, download and install Rainmeter from [https://www.rainmeter.net/](https://www.rainmeter.net/). Then go to the directory where Rainmeter stores the different installed skins, which is usually found at `C:\Users\YourName\Documents\Rainmeter\Skins`. Then download this repository into that directory by e.g. issuing the command
