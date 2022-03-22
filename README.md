@@ -23,7 +23,7 @@ under the string
 > ; Location \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 Here you will find the lines
-> Latitude=<Insert latitude here as 11.223344>
+> Latitude=<Insert latitude here as 11.223344>    
 > Longitude=<Insert longitude here as 11.223344>
 
 Replace the text after the '=' sign with the latitude and longitude of your location.
