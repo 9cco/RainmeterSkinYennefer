@@ -12,6 +12,25 @@ git clone https://github.com/9cco/RainmeterSkinYennefer.git
 To load the skin, start Rainmeter, then left-click the Rainmeter icon in the taskbar, or, alternatively, right-click and choose '*Manage*' from the menue. Click '*Refresh all*' and
 the folder '*Yennefer*' should appear in the '*Skins*' tab. Click the folder and navigate to the skin in the *Yennefer* suite that you want to load. Then click the '*Load*' button and the skin should start running on your desktop.
 
+## Skin setup
+
+In order to make all the features of this suite properly there are a few things
+that needs to be setup manually in the file found at `#ROOTCONFIGPATH#\@Resources\Variables.inc` where `#ROOTCONFIGPATH#` is the path
+to the folder with the Yennefer suite.
+
+Open the `Variables.inc` file and scroll down to the *"Location"* section, which starts
+under the string
+> ; Location \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+Here you will find the lines
+> Latitude=<Insert latitude here as 11.223344>
+> Longitude=<Insert longitude here as 11.223344>
+
+Replace the text after the '=' sign with the latitude and longitude of your location.
+You can find this by e.g. going to [maps.google.com](maps.google.com), left-clicking
+on your location and copying the numbers in the box that appears on the bottom of the
+screen. The number to the left is your latitude, while the number to the right is your longitude.
+
 ## Skin descriptions
 
 #### Memory
@@ -32,7 +51,7 @@ A digital clock with fancy reflection that also prints the day and date above th
 
 #### Vulnerabilities
 
-Parses the CVE vulnerability API for the latest vulnerabilities that have a CVSS score that is sufficiently high. Displays these in a list with dates the vulnerabilities were published, their CVE IDs and the CVSS score. If you click on them you are taken to the NVD-website for the specified vulnerability.
+Parses the CVE vulnerability API hosted by [NIST](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology) at `https://services.nvd.nist.gov/rest/json/cves/1.0/` for the last modified vulnerabilities that have a CVSSv3 rating of *"Critical"*. Displays these in a list with dates the vulnerabilities were published, their CVE IDs and the CVSS score. If you click on them you are taken to the [NIST NVD-website](https://nvd.nist.gov/) for the specified vulnerability.
 
 #### Weather
 
