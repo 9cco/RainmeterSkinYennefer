@@ -12,7 +12,7 @@ git clone https://github.com/9cco/RainmeterSkinYennefer.git
 To load the skin, start Rainmeter, then left-click the Rainmeter icon in the taskbar, or, alternatively, right-click and choose '*Manage*' from the menue. Click '*Refresh all*' and
 the folder '*Yennefer*' should appear in the '*Skins*' tab. Click the folder and navigate to the skin in the *Yennefer* suite that you want to load. Then click the '*Load*' button and the skin should start running on your desktop.
 
-![Redacted screenshot of the the skin running.](file:///screenshot.png)
+![Redacted screenshot of the the skin running.](screenshot.png)
 
 ## Suite setup
 
